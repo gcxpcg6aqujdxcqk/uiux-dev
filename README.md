@@ -1,7 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-If you used the stencil code, this is `https://<your GitHub username>.github.io/<name of your repository>`
+`https://gcxpcg6aqujdxcqk.github.io/uiux-dev`
 
 ### Goal and Value of the Application
 
