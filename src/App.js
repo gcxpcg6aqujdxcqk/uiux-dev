@@ -22,7 +22,7 @@ function App() {
         <h1>Petit Plant Shop</h1>
         <div className="menu">
           {data.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
-            <StoreItem name={item.name} desc={item.description} price={item.price} image={item.image} cart={cart} setCart={setCart} total={total} setTotal={setTotal}/> // replace with BakeryItem component    
+            <StoreItem item={item} cart={cart} setCart={setCart} total={total} setTotal={setTotal}/>  
            ))}
         </div>
       </div>

@@ -8,19 +8,22 @@ function BakeryItem(prop) {
     const cart = prop.cart;
     const setTotal = prop.setTotal;
     const total = prop.total;
+    const item = prop.item;
     const handleClick = () => {
-        setCart([...cart, prop.name, " $", prop.price, <br></br>])
-        setTotal(Math.round((total + prop.price) * 100) / 100)
+        setCart([...cart, item.name, " $", item.price, <br></br>])
+        setTotal(Math.round((total + item.price) * 100) / 100)
         
     }
     return(
         <div class="BakeryItem">
-            <img class="img" src={prop.image}/>
+            <img class="img" src={item.image}/>
             <div class="info">
-                <h1>{prop.name}</h1>
-                <h2>${prop.price}</h2>
+                <h1>{item.name}</h1>
+                <h2>{item.light}</h2>
+                <h2>{item.water}</h2>
+                <h2>${item.price}</h2>
                 <button onClick={handleClick}>Add to cart</button>
-                <p>{prop.desc}</p>
+                <p>{item.desc}</p>
             </div> 
         </div>
     )
