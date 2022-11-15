@@ -1,93 +1,123 @@
 [
     {
-      "name": "Chocolate Chip Cookies",
-      "description": "Four classic chocolate chip cookies",
+      "name": "Pothos",
+      "description": "Long the reigning king of the houseplants, this attractive vining plant comes in many different varieties.",
       "price": 7.99,
-      "image": "images/anika.png"
+      "light": "medium",
+      "water": "light",
+      "image": "images/pothos.jpeg"
     },
     {
-      "name": "Matcha Mille Crepe Cake",
-      "description": "Layers of matcha crepe and matcha cream filling, topped with strawberries",
+      "name": "Snake Plant",
+      "description": "They have a striking architectural form that ranges from a few inches to a few feet tall.",
       "price": 4.99,
-      "image": "images/aubrey.png"
+      "light": "bright",
+      "water": "light",
+      "image": "images/snake.jpeg"
     },
     {
-      "name": "Egg Custard Bun",
-      "description": "A fluffy steamed bun with a savory egg filling",
+      "name": "Monstera",
+      "description": "Also known as Swiss cheese plant (for all the holes in its leaves!), this is a dramatic-looking favorite.",
       "price": 2.99,
-      "image": "images/connie.png"
+      "light": "bright",
+      "water": "medium",
+      "image": "images/monstera.jpeg"
     },
     {
-      "name": "Steamed Taro Buns",
-      "description": "Two soft steamed buns filled with gooey purple taro filling",
+      "name": "ZZ Plant",
+      "description": "ZZ plant, which is short for Zamioculcas zamiifolia, is one of the easiest plants to grow.",
       "price": 5.99,
-      "image": "images/dylan.png"
+      "light": "low",
+      "water": "light",
+      "image": "images/zz.jpeg"
     },
     {
-      "name": "Chocolate Fudge Brownie",
-      "description": "A rich fudge brownie drizzled with chocolate ganache",
+      "name": "Peace Lily",
+      "description": "Peace lilies have glossy leaves and pretty spoon-shaped white flowers.",
       "price": 3.99,
-      "image": "images/isaac.png"
+      "light": "medium",
+      "water": "medium",
+      "image": "images/peace.jpeg"
     },
     {
-      "name": "Macarons",
-      "description": "A box of three macarons in assorted flavors",
+      "name": "Aloe Vera",
+      "description": "Aloe vera grows in the landscape in warm climates, but in the colder parts of the country, it's a popular houseplant.",
       "price": 4.99,
-      "image": "images/jeff.png"
+      "light": "bright",
+      "water": "light",
+      "image": "images/aloe.jpeg"
     },
     {
-      "name": "Multigrain Bread",
-      "description": "A loaf of fresh-baked multigrain bread",
+      "name": "Moth Orchid",
+      "description": "This orchid may look exotic, but it’s actually a reliable bloomer with the proper conditions.",
       "price": 4.99,
-      "image": "images/jenny.png"
+      "light": "bright",
+      "water": "light",
+      "image": "images/orchid.jpeg"
     },
     {
-      "name": "Croissant",
-      "description": "A classic butter croissant with a flaky crust",
+      "name": "Peperomia",
+      "description": "This succulent, which remains a small houseplant, has exploded in popularity the past few years.",
       "price": 2.99,
-      "image": "images/jessie.png"
+      "light": "bright",
+      "water": "light",
+      "image": "images/peperomia.jpeg"
     },
     {
-      "name": "Toast with Butter",
-      "description": "A slice of toast with a pat of butter",
+      "name": "Norfolk Island Pine",
+      "description": "Norfolk pine are attractive little trees that have soft needles and an elegant form.",
       "price": 1.99,
-      "image": "images/kelly.png"
+      "light": "bright",
+      "water": "medium",
+      "image": "images/pine.jpeg"
     },
     {
-      "name": "Tiramisu",
-      "description": "A classic tiramisu with layers of coffee-soaked ladyfingers and mascarpone cream",
+      "name": "Money Tree",
+      "description": "Popular since the 80s, this plant may have a braided stem or bonsai form.",
       "price": 3.99,
-      "image": "images/lauren.png"
+      "light": "bright",
+      "water": "light",
+      "image": "images/money.jpeg"
     },
     {
-      "name": "Egg Tart",
-      "description": "A flaky pastry shell filled with a sweet egg custard",
+      "name": "Senecio",
+      "description": "Succulents of all sorts have been extremely popular in recent years, but these are must-haves because of their delightful forms.",
       "price": 2.99,
-      "image": "images/melissa.png"
+      "light": "bright",
+      "water": "light",
+      "image": "images/senecio.jpeg"
     },
     {
-      "name": "Everything Bagel",
-      "description": "A toasted bagel with sesame seeds, poppy seeds, and dried onion",
+      "name": "Christmas Cactus",
+      "description": "Native to Brazil, this succulent can live for decades and is available in a number of pretty colors.",
       "price": 2.99,
-      "image": "images/miku.png"
+      "light": "bright",
+      "water": "light",
+      "image": "images/cactus.jpeg"
     },
     {
-      "name": "Gingerbread Man",
-      "description": "A soft gingerbread cookie with a sweet icing glaze",
+      "name": "Philodendron",
+      "description": "With both upright and climbing types, you can’t go wrong with philodendrons!",
       "price": 2.99,
-      "image": "images/nick.png"
+      "light": "bright",
+      "water": "light",
+      "image": "images/philodendron.jpeg"
     },
     {
-      "name": "Cheesecake",
-      "description": "A slice of classic New York cheesecake topped with strawberry",
+      "name": "African Violet",
+      "description": "These old-fashioned favorites have violet flowers that bloom just above the evergreen foliage.",
       "price": 3.99,
-      "image": "images/sunny.png"
+      "light": "bright",
+      "water": "light",
+      "image": "images/violet.jpeg"
     },
     {
-      "name": "Cream Puff",
-      "description": "Light and airy pâte à choux filled with sweet whipped cream",
+      "name": "Rubber Tree",
+      "description": "This handsome plant has glossy, leathery leaves that have made it popular for decades.",
       "price": 2.99,
-      "image": "images/tongyu.png"
+      "light": "bright",
+      "water": "light",
+      "image": "images/rubber.jpeg"
     }
   ]
   

@@ -1,10 +1,10 @@
 import "./App.css";
 import { useState } from "react";
-import bakeryData from "./assets/data.json";
-import BakeryItem from "./components/StoreItem";
+import data from "./assets/data.json";
+import StoreItem from "./components/StoreItem";
 
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
-bakeryData.forEach((item) => {
+data.forEach((item) => {
   item.image = process.env.PUBLIC_URL + "/" + item.image;
 });
 /* ############################################################## */
@@ -19,10 +19,10 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>Ben's Bakery</h1> {/* TODO: personalize your bakery (if you want) */}
+        <h1>Petit Plant Shop</h1>
         <div className="menu">
-          {bakeryData.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
-            <BakeryItem name={item.name} desc={item.description} price={item.price} image={item.image} cart={cart} setCart={setCart} total={total} setTotal={setTotal}/> // replace with BakeryItem component    
+          {data.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
+            <StoreItem name={item.name} desc={item.description} price={item.price} image={item.image} cart={cart} setCart={setCart} total={total} setTotal={setTotal}/> // replace with BakeryItem component    
            ))}
         </div>
       </div>

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../App.css";
 
 // TODO: create a component that displays a single bakery item
 function BakeryItem(prop) {
@@ -15,10 +16,12 @@ function BakeryItem(prop) {
     return(
         <div class="BakeryItem">
             <img class="img" src={prop.image}/>
-            <h1>{prop.name}</h1>
-            <h2>{prop.price}</h2>
-            <p>{prop.desc}</p>
-            <button onClick={handleClick}>Add to cart</button>
+            <div class="info">
+                <h1>{prop.name}</h1>
+                <h2>{prop.price}</h2>
+                <button onClick={handleClick}>Add to cart</button>
+                <p>{prop.desc}</p>
+            </div> 
         </div>
     )
 }
