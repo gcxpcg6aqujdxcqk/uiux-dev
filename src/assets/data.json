@@ -33,7 +33,7 @@
     },
     {
       "name": "Peace Lily",
-      "description": "Peace lilies have glossy leaves and pretty spoon-shaped white flowers.",
+      "description": "Peace lilies have glossy green leaves and pretty spoon-shaped white flowers.",
       "price": 3.99,
       "light": "medium",
       "water": "medium",
@@ -41,7 +41,7 @@
     },
     {
       "name": "Aloe Vera",
-      "description": "Aloe vera grows in the landscape in warm climates, but in the colder parts of the country, it's a popular houseplant.",
+      "description": "Aloe vera grows in the landscape in warm climates, and in the household in cold climates.",
       "price": 4.99,
       "light": "bright",
       "water": "light",
@@ -49,7 +49,7 @@
     },
     {
       "name": "Moth Orchid",
-      "description": "This orchid may look exotic, but it’s actually a reliable bloomer with the proper conditions.",
+      "description": "This orchid may look exotic, but it's actually a reliable bloomer with the proper conditions.",
       "price": 4.99,
       "light": "bright",
       "water": "light",
@@ -64,7 +64,7 @@
       "image": "images/peperomia.jpeg"
     },
     {
-      "name": "Norfolk Island Pine",
+      "name": "Norfolk Pine",
       "description": "Norfolk pine are attractive little trees that have soft needles and an elegant form.",
       "price": 1.99,
       "light": "bright",
@@ -81,7 +81,7 @@
     },
     {
       "name": "Senecio",
-      "description": "Succulents of all sorts have been extremely popular in recent years, but these are must-haves because of their delightful forms.",
+      "description": "Succulents of all sorts have been extremely popular in recent years, but these are must-haves.",
       "price": 2.99,
       "light": "bright",
       "water": "light",

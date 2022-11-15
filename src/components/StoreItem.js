@@ -18,7 +18,7 @@ function BakeryItem(prop) {
             <img class="img" src={prop.image}/>
             <div class="info">
                 <h1>{prop.name}</h1>
-                <h2>{prop.price}</h2>
+                <h2>${prop.price}</h2>
                 <button onClick={handleClick}>Add to cart</button>
                 <p>{prop.desc}</p>
             </div> 
