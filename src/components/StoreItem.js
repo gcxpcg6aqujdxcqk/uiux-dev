@@ -19,11 +19,11 @@ function BakeryItem(prop) {
             <img class="img" src={item.image}/>
             <div class="info">
                 <h1>{item.name}</h1>
-                <h2>{item.light}</h2>
-                <h2>{item.water}</h2>
                 <h2>${item.price}</h2>
                 <button onClick={handleClick}>Add to cart</button>
-                <p>{item.desc}</p>
+                <p>Light: {item.light}</p>
+                <p>Water: {item.water}</p>
+                <p>{item.description}</p>
             </div> 
         </div>
     )
