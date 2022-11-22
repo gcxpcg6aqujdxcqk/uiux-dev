@@ -2,31 +2,59 @@ import { useState } from "react";
 import "../App.css";
 
 // TODO: create a component that displays a single bakery item
-function BakeryItem(prop) {
-    const [order, addOrder] = useState(0);
-    const setCart = prop.setCart;
-    const cart = prop.cart;
-    const setTotal = prop.setTotal;
-    const total = prop.total;
-    const item = prop.item;
-    const handleClick = () => {
-        setCart([...cart, item.name, " $", item.price, <br></br>])
-        setTotal(Math.round((total + item.price) * 100) / 100)
-        
+function StoreItem(prop) {
+    const total = prop.total
+    const setTotal = prop.setTotal
+    const item = prop.item
+    const list = prop.list
+    const setList = prop.setList
+    const [added, inCart] = useState(false)
+    const [cartMessage, changeMessage] = useState("Add to cart")
+
+    // updating a list to append a new item
+    function addToList(name) {
+        // make deep copy of old list; add the item
+        const newList = [...list, name] 
+        // set the state of the list to the updated copy
+        setList(newList)
     }
+
+    // updating a list to append a new item
+    function removeFromList(name) {
+        // make deep copy of old list; add the item
+        const newList = [...list].filter((plant) => plant !== name)
+        // set the state of the list to the updated copy
+        console.log(newList)
+        setList(newList)
+    }
+
+    const handleClick = () => {
+        inCart(!added) 
+        if (!added) {
+            setTotal(Math.round((total + item.price) * 100) / 100)
+            changeMessage("Remove from cart")
+            addToList(item.name)
+        } else {
+            setTotal(Math.round((total - item.price) * 100) / 100)
+            changeMessage("Add to cart")
+            removeFromList(item.name)
+        }
+    }
+
     return(
-        <div class="BakeryItem">
-            <img class="img" src={item.image}/>
-            <div class="info">
-                <h1>{item.name}</h1>
-                <h2>${item.price}</h2>
-                <button onClick={handleClick}>Add to cart</button>
+        <div className="StoreItem">
+            <img className="img" src={item.image}/>
+            <div className="info">
+                <h2>{item.name}</h2>
+                <h3>${item.price}</h3>
+                <button onClick={handleClick}>{cartMessage}</button>
                 <p>Light: {item.light}</p>
                 <p>Water: {item.water}</p>
+                <p>Difficulty: {item.type}</p>
                 <p>{item.description}</p>
             </div> 
         </div>
     )
 }
 
-export default BakeryItem;
+export default StoreItem;

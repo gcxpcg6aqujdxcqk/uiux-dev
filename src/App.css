@@ -4,15 +4,19 @@
   display: flex;
 }
 
+.App h1 {
+  padding-left: 10px;
+}
+
 .menu {
   display: flex;
   flex-flow: wrap;
-  width: 75%;
+  width: 85rem;
 }
 
-.BakeryItem {
-background-color: rgb(213, 213, 213);
-width: 30%;
+.StoreItem {
+background-color: #e3e3cb;
+width: 20rem;
 margin: 10px;
 border-radius: 15px;
 }
@@ -26,11 +30,12 @@ border-radius: 15px;
 }
 
 .cart {
-  width: 200%;
-  background-color: #d4af37;
+  width: 100%;
+  background-color: #D8B238;
 }
 
 .info {
-  padding: 10px;
-  padding-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
