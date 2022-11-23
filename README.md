@@ -1,7 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-[Link to website](https://gcxpcg6aqujdxcqk.github.io/uiux-dev)
+[Click Here](https://gcxpcg6aqujdxcqk.github.io/uiux-dev)
 
 ### Goal and Value of the Application
 This application is a simple online plant shop that offers different types of plants with varying care needs to the user. The user has the ability to filter between light and water levels, as well as sort by price to find the perfect plant! On the right side of the website is the user's cart, where they can see the plants that they have added in addition to the total cost of their purchase.

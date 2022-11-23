@@ -54,22 +54,24 @@ function App() {
     <div className="App">
       <div>
         <h1>Petit Plant Shop</h1>
-        <div>
-          <h3>Sort by:</h3>
-          <input type="checkbox" checked={checked} onChange={handleChange}/> Price
-        </div>
-        <div onChange={selectLight}>
-          <h3>Filter by light:</h3>
-          <input type="radio" value="all" name="light" /> All
-          <input type="radio" value="low" name="light" /> Low
-          <input type="radio" value="medium" name="light" /> Medium
-          <input type="radio" value="bright" name="light" /> Bright
-        </div>
-        <div onChange={selectWater}>
-          <h3>Filter by water:</h3>
-          <input type="radio" value="all" name="water" /> All
-          <input type="radio" value="light" name="water" /> Light
-          <input type="radio" value="medium" name="water" /> Medium
+        <div className="filters">
+          <div>
+            <h3>Sort by:</h3>
+            <input type="checkbox" checked={checked} onChange={handleChange}/> Price
+          </div>
+          <div onChange={selectLight}>
+            <h3>Filter by light:</h3>
+            <input type="radio" value="all" name="light" /> All
+            <input type="radio" value="low" name="light" /> Low
+            <input type="radio" value="medium" name="light" /> Medium
+            <input type="radio" value="bright" name="light" /> Bright
+          </div>
+          <div onChange={selectWater}>
+            <h3>Filter by water:</h3>
+            <input type="radio" value="all" name="water" /> All
+            <input type="radio" value="light" name="water" /> Light
+            <input type="radio" value="medium" name="water" /> Medium
+          </div>
         </div>
         <div className="menu">
           {filteredData.map((item) => (
