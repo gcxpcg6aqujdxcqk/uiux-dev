@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../App.css";
 
+
 // TODO: create a component that displays a single bakery item
 function StoreItem(prop) {
     const total = prop.total
@@ -50,7 +51,6 @@ function StoreItem(prop) {
                 <button onClick={handleClick}>{cartMessage}</button>
                 <p>Light: {item.light}</p>
                 <p>Water: {item.water}</p>
-                <p>Difficulty: {item.type}</p>
                 <p>{item.description}</p>
             </div> 
         </div>
